@@ -1,0 +1,35 @@
+/* add your CSS here */
+body{
+  font-family: "Times New Roman", Arial, Helvetica, monospace;
+}
+.title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.content{
+  border-style: ridge;
+  border-width: thin;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.animalinfo{
+  border-style: ridge;
+  border-width: thin;
+  padding: 10px;
+}
+.animalimage{
+  width: 300px;
+  padding-bottom: 10px;
+}
+.animalfactslist{
+  padding: 0;
+  list-style-type: none;
+}
+.animalfactslist span{
+  font-weight: bold;
+}
+.emphacized{
+  font-style: italic;
+}
