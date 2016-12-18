@@ -6,4 +6,8 @@ Each folder contained here is supposed to represent a project and I'm gonna edit
 
 * /mockup-to-site
   * blog-mockup.pdf // PDF with the design of the site.
-  * index.html // Site built according to the PDF.
+  * index.html // Page built according to the PDF.
+* /animal-trading-card
+  * card.html // Page of a simple animal card
+  * styles.css // Stylesheet for the page
+  * design-prototype.png // The design of the animal card
