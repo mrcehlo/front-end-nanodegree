@@ -2,11 +2,14 @@
 body{
   font-family: "Times New Roman", Arial, Helvetica, monospace;
 }
+
 .title{
   font-weight: bold;
   font-size: 30px;
 }
+
 .content{
+  width: 300px;
   border-style: ridge;
   border-width: thin;
   padding-left: 20px;
@@ -14,22 +17,27 @@ body{
   padding-right: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
-.animalinfo{
+
+.animal-info{
   border-style: ridge;
   border-width: thin;
   padding: 10px;
 }
-.animalimage{
+
+.animal-image{
   width: 300px;
   padding-bottom: 10px;
 }
-.animalfactslist{
+
+.animal-facts-list{
   padding: 0;
   list-style-type: none;
 }
-.animalfactslist span{
+
+.animal-facts-list span{
   font-weight: bold;
 }
+
 .emphacized{
   font-style: italic;
 }
