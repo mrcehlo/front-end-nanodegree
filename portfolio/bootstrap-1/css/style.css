@@ -1,0 +1,42 @@
+/* General style */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 1px groove;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.header-title h1 {
+  margin-bottom: 0;
+}
+
+.header-title h3 {
+  margin-top: 1%;
+}
+
+.logo {
+  margin-top: 2%;
+}
+
+.body-content {
+  background-color: #131A2D;
+}
+
+.main-image {
+  padding: 2% 0 1% 0;
+}
+
+.content-title {
+  color: #D0C4AB;
+  padding: 2% 0 0 3%;
+}
+
+.itens-title {
+  margin: 0 1% 0 1%;
+  text-align: center;
+}

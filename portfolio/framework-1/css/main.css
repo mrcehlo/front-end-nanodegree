@@ -1,0 +1,166 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Body customization */
+.grid {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+}
+
+/* Header style */
+header {
+    display: flex;
+    border-bottom: ridge 2px #BCBBBB;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.rigth-align {
+    margin-left: 50%;
+    text-align: right;
+}
+
+.header-title {
+    font-size: 35px;
+    color: #747704;
+    margin-bottom: 0;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    font-size: 15px;
+    color: #747704;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-top: 30%;
+    margin-bottom: 0;
+}
+
+/* Main content */
+.shaded-title {
+    color: #BCBBBB;
+}
+
+.main-image {
+    padding-top: 1%;
+}
+
+.featured-itens {
+    display: flex;
+}
+
+.left-figure {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.right-figure {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.middle-figure {
+  margin: 0 auto;
+}
+
+.figure-detail {
+    color: #747704;
+    text-align: center;
+}
+
+.figure-detail h3 {
+    text-transform: uppercase;
+}
+
+.figure-detail p {
+  text-transform: lowercase;
+}
+
+/* Structural division of the page */
+.row {
+    width: 100%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Handle smaller sizes of the screen */
+@media screen and (max-width: 800px) {
+
+    .featured-itens {
+      display: inline;
+      text-align: left;
+    }
+
+    .left-figure,
+    .right-figure,
+    .middle-figure {
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 5%;
+        display: flex;
+    }
+
+    .figure-detail {
+        padding-left: 10%;
+        text-align: justify;
+    }
+}
