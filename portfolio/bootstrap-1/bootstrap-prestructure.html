@@ -4,6 +4,8 @@
     <title>Portfolio with Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="container">
@@ -25,29 +27,98 @@
         </section>
         <section class="row text-uppercase itens-title">
           <figure class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of featured item 1">
-            <h3>Appify</h3>
-            <p><a href="http://github.com">Link to project</a></p>
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of project 1" data-toggle="modal" data-target="#project1">
+            <h3>Project 1</h3>
+            <p><a href="http://github.com">Link to project 1</a></p>
           </figure>
           <figure class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of featured item 2">
-            <h3>Appify</h3>
-            <p><a href="http://github.com">Link to project</a></p>
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of project 2" data-toggle="modal" data-target="#project2">
+            <h3>Project 2</h3>
+            <p><a href="http://github.com">Link to project 2</a></p>
           </figure>
         </section>
         <section class="row text-uppercase itens-title">
           <figure class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of featured item 3">
-            <h3>Appify</h3>
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of project 3" data-toggle="modal" data-target="#project3">
+            <h3>Project 3</h3>
             <p><a href="http://github.com">Link to project</a></p>
           </figure>
           <figure class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of featured item 4">
-            <h3>Appify</h3>
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="Picture of project 4" data-toggle="modal" data-target="#project4">
+            <h3>Project 4</h3>
             <p><a href="http://github.com">Link to project</a></p>
           </figure>
         </section>
       </section>
+    </div>
+
+    <!-- Modal for project 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project1Modal">Project 1 Details</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    This is the first project I have created in order to accomplish my goal of become a front web developer Ninja!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for project 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project2Modal">Project 2 Details</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    This is the second project I have created in order to accomplish my goal of become a front web developer Ninja!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for poject 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project3Modal">Project 3 Details</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    This is the third project I have created in order to accomplish my goal of become a front web developer Ninja!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for poject 4 -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project4Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project4Modal">Project 4 Details</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    This is the fourth project I have created in order to accomplish my goal of become a front web developer Ninja!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
